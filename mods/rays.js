@@ -52,7 +52,7 @@ whenAvailable(["runAfterAutogen","libraryLoaded"], function() {
 		density: 1,
 		tempLow: -270,
 		stateLow: "light",
-		hidden: true,
+		hidden: false,
 		noMix: true,
 		insulate: true
 	};
