@@ -34,7 +34,7 @@ whenAvailable(["runAfterAutogen","libraryLoaded"], function() {
 	});
 
 	elements.insulate_flash = {
-		hidden: true,
+		hidden: false,
 		color: "#fffdcf",
 		tick: function(pixel) {
 			if (Math.random() < 0.75 && pixelTicks - pixel.start > 1) {
@@ -52,7 +52,7 @@ whenAvailable(["runAfterAutogen","libraryLoaded"], function() {
 		density: 1,
 		tempLow: -270,
 		stateLow: "light",
-		hidden: true,
+		hidden: false,
 		noMix: true,
 		insulate: true
 	};
